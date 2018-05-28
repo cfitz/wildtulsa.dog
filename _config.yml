@@ -1,0 +1,141 @@
+title: Chris Fitzpatrick
+name: Chris Fitzpatrick
+email: chris@wildtulsa.dog
+description: Software Developer & Information Janitor
+
+theme: jekyll-material-theme
+
+parallax_image_one: assets/images/petstore.jpg # These are the images used for the parallax background
+parallax_image_two: assets/images/bridge3.jpg
+
+# Settings for the porfolio section
+
+portfolio_heading: Projects
+portfolio_type: cards #cards or carousel
+
+project_one: CENTER-TBI Neurobot
+project_one_description: |
+  Traumatic Brain Injury, is a leading cause of death and disability, with an expected 50-60 million new cases annually. 
+  <a href='https://www.center-tbi.eu/'>CENTER-TBI</a> aims to better characterize TBI and identify the most effective treatments and improve outcomes via comparative-effectiveness studies.
+  Neurbot is a data collection tool that allows researchers to normalize and export data collected by the study.
+  It is written in ReactJS using <a href='https://github.com/zeit/next.js'>Next.js</a> framework. 
+project_one_url: https://incf.org/node/258
+project_one_icon: blur_on # these are from materiailize css, the full collection is here: http://materializecss.com/icons.html
+
+project_two: ArchivesSpace
+project_two_description: | 
+  <a href='https://archivesspace.org'>ArchivesSpace</a> is an open source management application for archives. I worked as a developer on the project, commiting much of the code to the application's source, as well as developing plugins and integrations to other applications. It is written in JRuby, using both Rails and Sinatra.  
+project_two_url: https://github.com/archivesspace/archivesspace 
+project_two_icon: create_new_folder
+
+
+project_three: KnowledgeSpace
+project_three_description: |
+  <a href='https://knowledge-space.org'>KnowledgeSpace</a> is a community encyclopaedia that links brain research concepts with data, models and literature from around the world. I am the primary developer for the 2.0 version, which uses Laravel and React.
+project_three_url: https://github.com/OpenKnowledgeSpace/KnowledgeSpace
+project_three_icon: link
+
+project_four: Neurostars
+project_four_description: |
+  Neurostars is a question and answer site for neuroinformatics. I have been providing system administration and plugin development. It uses [Discourse](https://discourse.org)
+project_four_url: https://neurostars.org/
+project_four_icon: link
+
+
+
+# Skill icons from https://konpa.github.io/devicon/
+
+skills:
+  - name: amazonwebservices
+  - name: android
+  - name: angularjs
+  - name: apache
+  - name: apple
+  - name: atom
+  - name: babel
+  - name: backbonejs
+  - name: bitbucket
+  - name: bootstrap
+  - name: bower
+  - name: chrome
+  - name: coffescript
+  - name: confluence
+  - name: css3
+  - name: cucumber
+  - name: d3js
+  - name: debian
+  - name: devicon
+  - name: django
+  - name: docker
+  - name: firefox
+  - name: foundation
+  - name: git
+  - name: github
+  - name: gitlab
+  - name: google
+  - name: grunt
+  - name: gulp
+  - name: heroku
+  - name: html5
+  - name: itellij
+  - name: java
+  - name: jasmine
+  - name: javascript
+  - name: laravel
+  - name: less
+  - name: linux
+  - name: mocha
+  - name: mongodb
+  - name: mysql
+  - name: nginx
+  - name: nodejs
+  - name: nodewebkit
+  - name: oracle
+  - name: php
+  - name: protractor
+  - name: postgresql
+  - name: python
+  - name: rails
+  - name: react
+  - name: redhat
+  - name: redis
+  - name: ruby
+  - name: safari
+  - name: sass
+  - name: slack
+  - name: ssh
+  - name: tomcat
+  - name: travis
+  - name: typescript
+  - name: ubuntu
+  - name: vim
+  - name: vuejs
+  - name: webpack
+  - name: zend
+
+icon_size: 50 # font-size of icons in px
+# colored: colored # Leave blank for black and white icons
+
+project_button: Project Home
+
+github: https://github.com/cfitz/
+medium: https://medium.com/@chrisfitzpat
+
+baseurl: # If your site is located at /blog or /home, change it here, otherwise leave it empty
+url: https://wildtulsa.dog # The URL of your site
+
+# Google tracking, if both are filled, tag manager will prevail. Set up GA through GTM in that case
+tag_manager_id: # This looks something like GTM-XXXXXXX
+google_analytics_tracking_id: # This looks something like UA-000000000-0 Head over to https://analytics.google.com/ to setup.
+
+cookie_accept_message: Thanks! # The pop-up dialog that appears after accepting the cookie notice.
+
+syntax_highlighting: true # include the css for syntax highlighting
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+plugins:
+  - jekyll-feed
+  - jekyll-assets
+  - jekyll-minifier
