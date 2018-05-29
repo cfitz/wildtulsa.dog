@@ -1,0 +1,9 @@
+anguage: generic
+script: bash ./deploy.sh
+env:
+  global:
+  - ENCRYPTION_LABEL: 79c4bb3a811e
+  - COMMIT_AUTHOR_EMAIL: chrisfitzpat@gmail.com
+language: ruby
+rbv:
+- 2.3.7
