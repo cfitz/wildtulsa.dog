@@ -6,6 +6,7 @@ TARGET_BRANCH="gh-pages"
 
 function doCompile {
   bundle exec jekyll build
+  cp CNAME _site/
 }
 
 # Pull requests and commits to other branches shouldn't try to deploy, just build to verify
