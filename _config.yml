@@ -15,29 +15,30 @@ portfolio_type: cards #cards or carousel
 
 project_one: CENTER-TBI Neurobot
 project_one_description: |
-  Traumatic Brain Injury, is a leading cause of death and disability, with an expected 50-60 million new cases annually. 
+  With an expected 50-60 million new cases annually, traumatic brain injury is a leading cause of death and disability. 
   <a href='https://www.center-tbi.eu/'>CENTER-TBI</a> aims to better characterize TBI and identify the most effective treatments and improve outcomes via comparative-effectiveness studies.
   Neurbot is a data collection tool that allows researchers to normalize and export data collected by the study.
+  I worked at the primary developer and technical architect on the product between 2018-2019.
   It is written in ReactJS using <a href='https://github.com/zeit/next.js'>Next.js</a> framework. 
-project_one_url: https://incf.org/node/258
+project_one_url: https://incf.org/resources/tools/neurobot
 project_one_icon: blur_on # these are from materiailize css, the full collection is here: http://materializecss.com/icons.html
 
 project_two: ArchivesSpace
 project_two_description: | 
-  <a href='https://archivesspace.org'>ArchivesSpace</a> is an open source management application for archives. I worked as a developer on the project, commiting much of the code to the application's source, as well as developing plugins and integrations to other applications. It is written in JRuby, using both Rails and Sinatra.  
+  <a href='https://archivesspace.org'>ArchivesSpace</a> is an open source management application for archives and archivist. Between 2013 and 2016, I worked as the primary developer on the project, commiting most of the code to the application's source, coordinating and leading open-source development, as well as developing plugins and integrations to other applications. It is written in JRuby, using both Rails and Sinatra.  
 project_two_url: https://github.com/archivesspace/archivesspace 
 project_two_icon: create_new_folder
 
 
 project_three: KnowledgeSpace
 project_three_description: |
-  <a href='https://knowledge-space.org'>KnowledgeSpace</a> is a community encyclopaedia that links brain research concepts with data, models and literature from around the world. I am the primary developer for the 2.0 version, which uses Laravel and React.
+  <a href='https://knowledge-space.org'>KnowledgeSpace</a> is a community encyclopaedia that links brain research concepts with data, models and literature from around the world. I was the primary developer for the 2.0 version between 2015 and 2019. It a Laravel and React web application.
 project_three_url: https://github.com/OpenKnowledgeSpace/KnowledgeSpace
 project_three_icon: link
 
 project_four: Neurostars
 project_four_description: |
-  Neurostars is a question and answer site for neuroinformatics. I have been providing system administration and plugin development. It uses [Discourse](https://discourse.org)
+  Neurostars is a question and answer site for the neuroinformatics community. I have been providing system administration and plugin development. It uses <a href="https://discourse.org">Discourse</a>.
 project_four_url: https://neurostars.org/
 project_four_icon: link
 
@@ -119,7 +120,7 @@ icon_size: 50 # font-size of icons in px
 project_button: Project Home
 
 github: https://github.com/cfitz/
-medium: https://medium.com/@chrisfitzpat
+medium: https://www.linkedin.com/in/chris-fitzpatrick-7b25321a6/
 
 baseurl: # If your site is located at /blog or /home, change it here, otherwise leave it empty
 url: https://wildtulsa.dog # The URL of your site

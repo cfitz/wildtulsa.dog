@@ -1,4 +1,32 @@
-<div class="row">
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    $('.projects span.activator').mouseover(function(e){
+      $(this).trigger('click');
+    });
+  
+    $(".medium .card-content a:nth-child(2)").text("LinkedIn")
+
+    const year = (new Date().getFullYear());
+    $(".footer-copyright p").text(year + " Copyright Chris Fitzpatrick | All rights reserved")
+
+  });
+</script>
+<style>
+
+span.card-title {
+  line-height: 1;
+}
+
+.card-reveal p {
+  padding-bottom: 40px;
+}
+
+</style>
+
+
+
+
+<div class="row projects">
   <div class="col s12 m6">
     <div class="card sticky-action">
       <div class="card-image waves-effect waves-block waves-light">
@@ -31,7 +59,7 @@
   </div>
 
 </div>
-<div class="row">
+<div class="row projects">
   <div class="col s12 m6">
     <div class="card sticky-action">
       <div class="card-image waves-effect waves-block waves-light">
