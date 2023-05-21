@@ -3,8 +3,9 @@
     $('.projects span.activator').mouseover(function(e){
       $(this).trigger('click');
     });
-  
-    $(".medium .card-content a:nth-child(2)").text("LinkedIn")
+
+    const $el = $("<span><i class='material-icons right'>book</i>LinkedIn</span>")
+    $(".medium .card-content a:nth-child(2)").empty().append($el)
 
     const year = (new Date().getFullYear());
     $(".footer-copyright p").text(year + " Copyright Chris Fitzpatrick | All rights reserved")
@@ -12,6 +13,9 @@
   });
 </script>
 <style>
+#blog {
+  display: none;
+}
 
 span.card-title {
   line-height: 1;
@@ -19,6 +23,10 @@ span.card-title {
 
 .card-reveal p {
   padding-bottom: 40px;
+}
+
+.fixed-action-btn ul li:nth-child(3) {
+  display: none;
 }
 
 </style>
